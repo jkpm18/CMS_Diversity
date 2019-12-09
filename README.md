@@ -1,5 +1,7 @@
 # Exploring Diversity in the Charlotte-Mecklenburg School district
 
+### Authors: Chase Romano, Kirk Mason, and Nityanand Kore
+
 This app allows policy makers and school officials in the Charlotte region to investigate the student diversity landscape for 
 the area's public school system from 2008 to 2020.
 
