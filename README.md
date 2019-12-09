@@ -33,6 +33,9 @@ A powerpoint slide deck outlining the app is also included(<em>CMS_Diversity.ppt
 <hr>
 
 <br> 
+
+<h6>Data Sources</h6>
+
 The data used for our analysis was free and made publically availabe by CMS through the following links:
 <ul>
   <li>https://wearecms.edlioschool.com/apps/pages/index.jsp?uREC_ID=1439962&type=d&pREC_ID=1602825</li>
