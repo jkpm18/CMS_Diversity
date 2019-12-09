@@ -23,4 +23,11 @@ The file <em>Report_Final.Rmd</em> produces the summary report for this project.
 
 <br> 
 
-The data used for our analysis was free and made publically availabe by CMS.
+The data used for our analysis was free and made publically availabe by CMS through the following links:
+<ul>
+  <li>https://wearecms.edlioschool.com/apps/pages/index.jsp?uREC_ID=1439962&type=d&pREC_ID=1602825</li>
+  <li>https://www.wearecms.com/apps/pages/index.jsp?uREC_ID=1628104&type=d&pREC_ID=1768996</li>
+ </ul>
+
+
+
