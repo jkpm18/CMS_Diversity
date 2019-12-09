@@ -21,8 +21,6 @@ All code used to create the app is in the folder entitled <em>CMS_Diversity_v03<
 </ol>
 
 <hr>
-  
-<br>
 
 <h6>Additional_Materials folder</h6>
 
