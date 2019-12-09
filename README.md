@@ -26,9 +26,9 @@ All code used to create the app is in the folder entitled <em>CMS_Diversity_v03<
 
 The file <em>Report_Final.Rmd</em> produces the summary report for this project. 
 
-A pdf version of that report has also been uploaded.
+A pdf version of that report has also been uploaded (<em>Report_Final.pdf</em>).
 
-A powerpoint slide deck outlining the app is also included(<em>CMS_Diversity.pptx</em>).
+A powerpoint slide deck outlining the app is also included (<em>CMS_Diversity.pptx</em>).
 
 <hr>
 
