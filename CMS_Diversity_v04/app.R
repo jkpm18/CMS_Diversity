@@ -89,7 +89,7 @@ ui <- fluidPage(
                    p("Select one or more race/ethnicity from the dropdown menu below"),
                    hr(),
                    selectInput("Race", "Race/Ethnicity (select one or more)", choices = groups,
-                               selected = "",
+                               selected = NULL,
                                multiple = TRUE),
                    p("NOTE: You can also delete selections from the dropdown menu above using the backspace key"),
                    hr(),
@@ -175,6 +175,19 @@ ui <- fluidPage(
             
           )
         )
+      ),
+      tabPanel("About",
+        br(),
+        column(1),
+        column(8, 
+               h5('This app was developed by Chase Romano, Kirk Mason, and Nityanand Kore.'),
+               p("It was the result of Ryan Wesslen's Visual Analytics course at the University of 
+                 North Carolina Charlotte through the Data Science and Business Analytics MS program."),
+               br(),
+               HTML('<a href="https://github.com/jkpm18/CMS_Diversity" style="color: #e36209">View Code on GitHub</a>')
+               ),
+        column(3)
+        
       )
     )
   )
@@ -275,53 +288,110 @@ server <- function(input, output) {
     
     return(df)
   })
+
   
   output$shading <- renderText({
     text <- paste0("The shading of each point on the map is ", 
                    "currently conveying the percent of students in each school in ", 
                    selected_year(),
-                   " who were ")
-    for (race in input$Race){
-      text <- paste0(text, race, " or ")
+                   " who were _________.")
+    
+    if(!is.null(input$Race)) {
+      text <- substr(text, 0, nchar(text)-10)
+      
+      for (race in input$Race){
+        text <- paste0(text, race, " or ")
+      }
+      text <- substr(text, 0, nchar(text)-4)
+      text <- paste0(text, ".")
     }
-    text <- substr(text, 0, nchar(text)-4)
-    text <- paste0(text, ".")
+     return(text)
   })
  
   
-  # LEAFLET VERSION OF THE MAP...
+  # IMPROVED LEAFLET VERSION OF THE MAP...
+  mypal <- reactive({
+    colorNumeric(palette = c("navy", "lightcoral"), domain = df_groups_year()$Percentage, reverse = TRUE)
+  })
   
-  mypal <- colorNumeric(palette = c("navy", "lightcoral"), domain = tidydata$Percentage, reverse = TRUE)
-
   output$map <- renderLeaflet({
     leaflet() %>%
       addTiles() %>%
-      fitBounds(min(tidydata$lon), min(tidydata$lat), max(tidydata$lon), max(tidydata$lat))
+      fitBounds(min(tidydata$lon), min(tidydata$lat), max(tidydata$lon), max(tidydata$lat)) 
   })
   
   observe({
+    
     df <- df_groups_year()
-
+    
+    labels <- sprintf(
+      "<strong>%s</strong><br/>%g%%",
+      df$School, df$Percentage
+    ) %>% lapply(htmltools::HTML)
+    
     if(nrow(df) == 0){
       leafletProxy("map", data = df) %>%
         clearMarkers()
     }
+    
     else{
       leafletProxy("map", data = df) %>%
         clearMarkers() %>%
-        removeControl("legend") %>%     
-        addCircleMarkers(radius = 8, weight = 2,
-                         color = ~mypal(df$Percentage),stroke = FALSE, fillOpacity = 0.95
-        ) %>%
-        addLegend("bottomleft",title = "Percentage",pal = mypal,
+        clearPopups()%>%
+        removeControl("legend") %>%
+        addCircleMarkers(radius = 8, 
+                         weight = 1, 
+                         color = ~mypal()(df$Percentage),
+                         stroke = FALSE, 
+                         fillOpacity = 0.95,
+                         label =labels,
+                         labelOptions = labelOptions(noHide = F, offset=c(0,-12)))  %>%
+        addLegend("bottomleft",
+                  title = "Percentage",
+                  pal = mypal(),
                   values = df$Percentage,
-                  opacity = 1,
-                  layerId = "legend") %>%
-        addLabelOnlyMarkers(data = df,
-                            lng = ~lon, lat = ~lat,label = (paste("School:",df$School," & Percentage:",df$Percentage)))#,
-      #labelOptions = labelOptions(noHide = FALSE, direction = 'top', textOnly = TRUE))
+                  layerId = "legend",
+                  opacity = 0.90)
     }
   })
+  
+  
+  
+  # OLD LEAFLET VERSION OF THE MAP...
+  
+  # mypal <- reactive({
+  #   colorNumeric(palette = c("navy", "lightcoral"), domain = df_groups_year()$Percentage, reverse = TRUE)
+  # })
+  # 
+  # output$map <- renderLeaflet({
+  #   leaflet() %>%
+  #     addTiles() %>%
+  #     fitBounds(min(tidydata$lon), min(tidydata$lat), max(tidydata$lon), max(tidydata$lat))
+  # })
+  # 
+  # observe({
+  #   df <- df_groups_year()
+  # 
+  #   if(nrow(df) == 0){
+  #     leafletProxy("map", data = df) %>%
+  #       clearMarkers()
+  #   }
+  #   else{
+  #     leafletProxy("map", data = df) %>%
+  #       clearMarkers() %>%
+  #       removeControl("legend") %>%     
+  #       addCircleMarkers(radius = 8, weight = 2,
+  #                        color = ~mypal()(df$Percentage),stroke = FALSE, fillOpacity = 0.95
+  #       ) %>%
+  #       addLegend("bottomleft",title = "Percentage",pal = mypal(),
+  #                 values = df$Percentage,
+  #                 opacity = 1,
+  #                 layerId = "legend") %>%
+  #       addLabelOnlyMarkers(data = df,
+  #                           lng = ~lon, lat = ~lat,label = (paste("School:",df$School," & Percentage:",df$Percentage)))#,
+  #     #labelOptions = labelOptions(noHide = FALSE, direction = 'top', textOnly = TRUE))
+  #   }
+  # })
   
   
   # ORIGINAL VERSION OF THE MAP...
