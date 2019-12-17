@@ -59,4 +59,5 @@ diversity is changing our schools</em>,<br> by Kate Rabinowitz, Armand Emamdjome
   <li><a href="https://www.thisamericanlife.org/562/the-problem-we-all-live-with-part-one"><em>The Problem We All Live With</em> (audio),<br> by Nikole Hannah-Jones, This American Life, 2015</a></li>
   <li><a href="https://www.npr.org/templates/story/story.php?storyId=1853532"><em>The Legacy of School Busing</em> (audio),<br> NPR Morning Edition, 2004</a></li>
   <li><a href="https://www.youtube.com/watch?v=sld722slarw"><em>The Battle for School Busing | Retro Report</em> (video),<br> The New York Times, 2013</a></li>
+  <li><a href="https://www.youtube.com/watch?v=RbVpuIjiXD4"><em>Oldest school desegregation program grows in Rochester, NY</em> (video),<br> PBS NewsHour, 2016</a></li>
 </ul>
