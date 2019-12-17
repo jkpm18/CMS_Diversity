@@ -5,15 +5,15 @@
 This app allows policy makers and school officials in the Charlotte region to investigate the student diversity landscape for 
 the area's public school system from 2008 to 2020.
 
-To view the live app go to https://kirkmason.shinyapps.io/CMS_Diversity_v04/.
+To view the live app go to https://kirkmason.shinyapps.io/CMS_Diversity_v05/.
 
 <hr>
 
-<h6>CMS_Diversity_v04 folder</h6>
+<h6>CMS_Diversity_v05 folder</h6>
 
-All code used to create the app is in the folder entitled <em>CMS_Diversity_v04</em>. If you wish to run the app from R Studio instead of going to the above link, you can use the following steps:
+All code used to create the app is in the folder entitled <em>CMS_Diversity_v05</em>. If you wish to run the app from R Studio instead of going to the above link, you can use the following steps:
 <ol>
-  <li>Download the <em>CMS_DIVERSITY_v04</em> folder</li>
+  <li>Download the <em>CMS_DIVERSITY_v05</em> folder</li>
   <li>Open <em>CMS_Diversity.Rproj</em> in R Studio</li>
   <li>Open app.R</li>
   <li>Click "Run App" in the upper right corner of the code panel</li>
