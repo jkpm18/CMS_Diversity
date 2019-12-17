@@ -45,8 +45,8 @@ The data used for our analysis was free and made publically availabe by CMS thro
 <h6>Background Reading</h6>
 <ul>
   <li><a href="https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/"><em>How the nation’s growing racial
-diversity is changing our schools</em>, by Kate Rabinowitz, Armand Emamdjomeh and Laura Meckler, Washington Post, 2019</a></li>
-  <li><a href="https://www.newyorker.com/news/news-desk/the-desegregation-and-resegregation-of-charlottes-schools"><em>The desegregation and resegregation of Charlotte's Schools</em>, by Clint Smith, The New Yorker, 2016</a></li>
-  <li><a href="https://gsppi.berkeley.edu/~ruckerj/johnson_schooldesegregation_NBERw16664.pdf"><em>Long-run impacts of school desegregation & school quality on adult attainments</em>, by Rucker Johnson, National Bureau of Economic Research, 2011</a></li>
-  <li><a href="https://www.history.com/news/desegregation-busing-schools"><em>What led to desegregation busing -- and did it work?</em>, by Lesley Kennedy, History.com, 2019</a></li>
-  <li><a href="https://www.nytimes.com/1985/01/06/us/north-carolina-bustles-with-people-and-money.html?pagewanted=all"><em>North Carolina bustles with people and money</em>, by Fay Joyce, The New York Times, 1985</a></li>
+diversity is changing our schools</em>,<br> by Kate Rabinowitz, Armand Emamdjomeh and Laura Meckler, Washington Post, 2019</a></li>
+  <li><a href="https://www.newyorker.com/news/news-desk/the-desegregation-and-resegregation-of-charlottes-schools"><em>The desegregation and resegregation of Charlotte's Schools</em>,<br> by Clint Smith, The New Yorker, 2016</a></li>
+  <li><a href="https://gsppi.berkeley.edu/~ruckerj/johnson_schooldesegregation_NBERw16664.pdf"><em>Long-run impacts of school desegregation & school quality on adult attainments</em>,<br> by Rucker Johnson, National Bureau of Economic Research, 2011</a></li>
+  <li><a href="https://www.history.com/news/desegregation-busing-schools"><em>What led to desegregation busing -- and did it work?</em>,<br> by Lesley Kennedy, History.com, 2019</a></li>
+  <li><a href="https://www.nytimes.com/1985/01/06/us/north-carolina-bustles-with-people-and-money.html?pagewanted=all"><em>North Carolina bustles with people and money</em>,<br> by Fay Joyce, The New York Times, 1985</a></li>
