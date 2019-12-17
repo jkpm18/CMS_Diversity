@@ -47,3 +47,6 @@ The data used for our analysis was free and made publically availabe by CMS thro
   <li><a href="https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/"><em>How the nation’s growing racial
 diversity is changing our schools</em>, Washington Post, 2019</a></li>
   <li><a href="https://www.newyorker.com/news/news-desk/the-desegregation-and-resegregation-of-charlottes-schools"><em>The desegregation and resegregation of Charlotte's Schools</em>, The New Yorker, 2016</a></li>
+  <li><a href="https://gsppi.berkeley.edu/~ruckerj/johnson_schooldesegregation_NBERw16664.pdf"><em>Long-run impacts of school desegregation & school quality on adult attainments</em>, Rucker Johnson, National Bureau of Economic Research, 2011</a></li>
+  <li><a href="https://www.history.com/news/desegregation-busing-schools"><em>What led to desegregation busing -- and did it work?</em>, Lesley Kennedy, History.com, 2019</a></li>
+  <li><a href="https://www.nytimes.com/1985/01/06/us/north-carolina-bustles-with-people-and-money.html?pagewanted=all"><em>North Carolina bustles with people and money</em>, The New York Times, 1985</a></li>
