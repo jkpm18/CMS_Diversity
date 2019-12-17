@@ -40,5 +40,8 @@ The data used for our analysis was free and made publically availabe by CMS thro
   <li>https://www.wearecms.com/apps/pages/index.jsp?uREC_ID=1628104&type=d&pREC_ID=1768996</li>
  </ul>
 
+<hr>
 
-
+<h6>Background Reading</h6>
+<ul>
+  <li><a href="https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/">Washington Post, 2019</a></li>
