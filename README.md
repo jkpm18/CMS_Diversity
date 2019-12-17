@@ -32,8 +32,6 @@ A powerpoint slide deck outlining the app is also included (<em>CMS_Diversity.pp
 
 <hr>
 
-<br> 
-
 <h6>Data Sources</h6>
 
 The data used for our analysis was free and made publically availabe by CMS through the following links:
