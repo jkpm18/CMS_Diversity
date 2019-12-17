@@ -44,4 +44,6 @@ The data used for our analysis was free and made publically availabe by CMS thro
 
 <h6>Background Reading</h6>
 <ul>
-  <li><a href="https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/">Washington Post, 2019</a></li>
+  <li><a href="https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/"><em>How the nation’s growing racial
+diversity is changing our schools</em>, Washington Post, 2019</a></li>
+  <li><a href="https://www.newyorker.com/news/news-desk/the-desegregation-and-resegregation-of-charlottes-schools"><em>The desegregation and resegregation of Charlotte's Schools</em>, The New Yorker, 2016</a></li>
