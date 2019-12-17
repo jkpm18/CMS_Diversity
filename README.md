@@ -50,3 +50,11 @@ diversity is changing our schools</em>,<br> by Kate Rabinowitz, Armand Emamdjome
   <li><a href="https://gsppi.berkeley.edu/~ruckerj/johnson_schooldesegregation_NBERw16664.pdf"><em>Long-run impacts of school desegregation & school quality on adult attainments</em>,<br> by Rucker Johnson, National Bureau of Economic Research, 2011</a></li>
   <li><a href="https://www.history.com/news/desegregation-busing-schools"><em>What led to desegregation busing -- and did it work?</em>,<br> by Lesley Kennedy, History.com, 2019</a></li>
   <li><a href="https://www.nytimes.com/1985/01/06/us/north-carolina-bustles-with-people-and-money.html?pagewanted=all"><em>North Carolina bustles with people and money</em>,<br> by Fay Joyce, The New York Times, 1985</a></li>
+  
+  <hr>
+  
+  <h6>Background Listening and Viewing</h6>
+<ul>
+  <li><a href="https://www.thisamericanlife.org/562/the-problem-we-all-live-with-part-one"><em>The Problem We All Live With</em> (audio),<br> by Nikole Hannah-Jones, This American Life, 2015</a></li>
+  <li><a href="https://www.npr.org/templates/story/story.php?storyId=1853532"><em>The Legacy of School Busing</em> (audio),<br> NPR Morning Edition, 2004</a></li>
+  <li><a href="https://www.youtube.com/watch?v=sld722slarw"><em>The Battle for School Busing | Retro Report</em> (video),<br> The New York Times, 2013</a></li>
