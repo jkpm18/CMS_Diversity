@@ -1,4 +1,5 @@
-# Exploring Diversity in the Charlotte-Mecklenburg School district
+# Exploring Diversity 
+# in the Charlotte-Mecklenburg School District
 
 ### Authors: Chase Romano, Kirk Mason, and Nityanand Kore
 
